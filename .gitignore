@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 vector_store/
+.DS_Store
 .Python
 build/
 develop-eggs/
