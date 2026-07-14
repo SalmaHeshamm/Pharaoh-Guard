@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-05T21:58:38.060391",
+  "input_file": "pharaoh_guard_clean.csv",
+  "temporal": {
+    "peak_hour": 11,
+    "weekend_lift_pct": 17.5,
+    "holiday_lift_pct": 25.7,
+    "winter_to_summer_ratio": 2.43
+  },
+  "sites": {
+    "highest_mean_occupancy": "Grand Egyptian Museum",
+    "highest_high_critical_share": "Grand Egyptian Museum",
+    "high_critical_share_by_site_pct": {
+      "Citadel of Cairo": 0.7,
+      "Saqqara": 2.2,
+      "Abu Simbel": 3.9,
+      "Luxor Temple": 11.6,
+      "Karnak Temple": 15.2,
+      "Valley of the Kings": 15.9,
+      "Giza Pyramids": 23.9,
+      "Grand Egyptian Museum": 23.9
+    }
+  },
+  "weather": {
+    "khamsin_share_pct": 1.09,
+    "khamsin_visitor_drop_pct": 16.5,
+    "khamsin_emergency_rate_pct": 4.96,
+    "normal_emergency_rate_pct": 2.08
+  },
+  "risk": {
+    "risk_score_corr_with_drivers": {
+      "Security_Score": -0.802,
+      "Temperature": -0.442,
+      "Wind_Speed": 0.015,
+      "Site_Sensitivity": 0.054,
+      "Weather_Score": 0.302,
+      "Current_Visitors": 0.726,
+      "Queue_Time": 0.78,
+      "Occupancy_Rate": 0.951,
+      "Operational_Load": 0.954
+    },
+    "critical_records": 389,
+    "critical_top_sites": {
+      "Grand Egyptian Museum": 160,
+      "Giza Pyramids": 115,
+      "Karnak Temple": 48
+    },
+    "critical_top_hours": {
+      "11": 226,
+      "10": 86,
+      "12": 63
+    },
+    "critical_holiday_share_pct": 14.4
+  },
+  "operations": {
+    "mean_queue_time_below_50pct_occ": 12.6,
+    "mean_queue_time_above_80pct_occ": 55.5,
+    "staffing_dilution": "staff per 1,000 visitors falls as occupancy rises - staffing is near-static while crowds are dynamic"
+  }
+}
